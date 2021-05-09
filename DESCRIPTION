@@ -16,3 +16,4 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/cristhianlarrahondo/cristhiansPackage
 BugReports: https://github.com/cristhianlarrahondo/cristhiansPackage/issues
+Import: openxlsx
