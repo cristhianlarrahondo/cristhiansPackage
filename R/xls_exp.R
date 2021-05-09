@@ -13,11 +13,14 @@
 #' and the column is numeric, it would turn into character.
 #' @param colnames logical, indicating if column names should be in the output. If
 #' true, column names are in the first row. Default set to TRUE.
+#' @param rownames logical, indicating if row names should be in the output. If
+#' true, row names are in the first column. Default set to TRUE.
 #'
 #' @return .xlsx file exported in the indicated path.
 #' @export
 #'
 #' @examples
+#' xlsx_exp(data = mtcars, filename = "prueba", rownames = TRUE)
 xlsx_exp =
   function(
     data,

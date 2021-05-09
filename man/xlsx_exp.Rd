@@ -29,6 +29,9 @@ and the column is numeric, it would turn into character.}
 
 \item{colnames}{logical, indicating if column names should be in the output. If
 true, column names are in the first row. Default set to TRUE.}
+
+\item{rownames}{logical, indicating if row names should be in the output. If
+true, row names are in the first column. Default set to TRUE.}
 }
 \value{
 .xlsx file exported in the indicated path.
@@ -37,4 +40,7 @@ true, column names are in the first row. Default set to TRUE.}
 Exporting one or multiple tables into a .xlsx file.
 If there are multiple tables, each one will be stored in the same file in
 different sheets.
+}
+\examples{
+xlsx_exp(data = mtcars, filename = "prueba", rownames = TRUE)
 }
